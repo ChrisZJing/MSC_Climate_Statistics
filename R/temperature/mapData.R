@@ -94,8 +94,8 @@ generateMap <- function(active_vrt_stn_list, zoom_region) {
                           "<h4>", "Observed Temperature Max/Min on ","</h4>", 
                           "<h4>", Sys.Date(), ": ____/____ °C ", "</h4>", "<br>", 
                           "<h4>", "<b><a href='https://weather.gc.ca/city/pages/", 
-                          active_vrt_stn_list$CLIMATE_IDENTIFIER, "_metric_e.html'> target='_blank'>", 
-                                 "Live Temperature Record</a></b>", "</h4>")
+                          active_vrt_stn_list$CLIMATE_IDENTIFIER, "_metric_e.html' target='_blank'>", 
+                          "Live Weather Record</a></b>", "</h4>")
   
   # Generate a leaflet map based on the inputs
   for(i in seq(1:length(REGION_NAME))){
