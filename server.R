@@ -3,7 +3,6 @@
 # Author:      Chris Jing
 # Created on:  2019-12-26
 
-
 # Load the source R codes
 source("ui.R", print=TRUE)
 source("global.R", print=TRUE)
